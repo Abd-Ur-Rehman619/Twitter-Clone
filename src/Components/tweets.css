@@ -1,0 +1,19 @@
+.feed {
+  border-right: 1px solid var(--twitter-background);
+  /* flex: 0.4; */
+  /* min-width: 660px; */
+  @apply flex-grow max-w-2xl;
+}
+
+.feed-header {
+  border-bottom: 1px solid var(--twitter-background);
+  @apply sticky top-0 bg-white z-50  px-4 py-4 font-bold;
+}
+
+/* .feed-header > h2 {
+    @apply text-xl;
+  } */
+
+.header-content {
+  @apply flex space-x-4 mt-4 -mb-4 items-center justify-around;
+}

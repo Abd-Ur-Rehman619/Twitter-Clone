@@ -1,0 +1,37 @@
+.post {
+  border-bottom: 1px solid var(--twitter-background);
+  @apply flex items-start pb-2;
+}
+
+.post-avatar {
+  @apply p-5;
+}
+
+.post-body {
+  @apply pl-0 pt-3 pr-3 pb-3 mt-1;
+  flex: 1;
+}
+.post-header {
+  @apply ml-1;
+}
+
+.post-headerText > h3 {
+  @apply text-sm mb-1;
+}
+
+.post-headerSpecial {
+  @apply font-semibold text-xs;
+  color: grey;
+}
+.post-badge {
+  font-size: 14px !important;
+  color: var(--old-twitter-color);
+}
+
+.post-description {
+  @apply text-sm mb-1 break-words;
+}
+
+.post-footer {
+  @apply flex justify-between mt-3 text-sm opacity-60;
+}
